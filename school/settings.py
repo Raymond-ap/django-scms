@@ -15,7 +15,7 @@ SECRET_KEY = 'your-secret-key-here'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", 'joe247.pythonanywhere.com']
 
 import datetime
 from django.core.validators import MinValueValidator  # Could use MaxValueValidator too
