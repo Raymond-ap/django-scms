@@ -4,6 +4,8 @@ from django.contrib.auth.admin import UserAdmin
 from .forms import CustomUserCreationForm, CustomUserChangeForm
 from .models import CustomUser, Accountant
 
+admin.site.site_header = 'AIT PAY admin'
+
 
 class CustomUserAdmin(UserAdmin):
     add_form = CustomUserCreationForm
